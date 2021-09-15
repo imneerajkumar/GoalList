@@ -1,5 +1,10 @@
 # GoalList
-### GoalList is a app to create list of goals.
+
+## Description:
+GoalList is a app to create list of goals.
 
 ## Made using:
-### React-Native, Expo
+React-Native, Expo
+
+### Check the app here:
+https://expo.io/@imneerajkumar/goals-list
