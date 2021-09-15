@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "Goals",
-    "slug": "Goals",
+    "name": "Goals List",
+    "slug": "goals-list",
+    "description": "App to make a list of your goals and delete once you completed it.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/notepad.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/notepad.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#d7f5e8"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +18,18 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.imneerajKumar.goals-list",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.imneerajKumar.goals_list",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "foregroundImage": "./assets/notepad.png",
+        "backgroundColor": "#d7f5e8"
+      },
+      "permissions": []
     }
   }
 }
